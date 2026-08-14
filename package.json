@@ -1,0 +1,16 @@
+{
+  "name": "djk-zar-static-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "npm run build && node scripts/check.mjs && node scripts/check-assets.mjs && node scripts/check-secrets.mjs",
+    "check:assets": "npm run build && node scripts/check-assets.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "qa": "npm run check && node scripts/qa.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

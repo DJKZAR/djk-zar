@@ -1,0 +1,44 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Consolidate an explicitly requested root document into the canonical homepage URL.
+RewriteCond %{THE_REQUEST} \s/+index\.html[?\s] [NC]
+RewriteRule ^index\.html$ https://www.djk-zar.nl/ [R=301,L,NE]
+
+# Replaced public downloads and renamed routes go directly to their final URL.
+RewriteRule ^wp-content/uploads/2021/06/Gedragsregels-en-vertrouwenspersoon-DJK-ZAR-20210620\.pdf$ https://www.djk-zar.nl/assets/documents/gedragsregels-en-vertrouwenspersoon.pdf [R=301,L,NE]
+RewriteRule ^wp-content/uploads/2023/05/Machtiging-D\.J\.K\.pdf$ https://www.djk-zar.nl/assets/documents/machtiging-djk.pdf [R=301,L,NE]
+RewriteRule ^en/?$ https://www.djk-zar.nl/en/water-polo-amsterdam/ [R=301,L,NE]
+RewriteRule ^elementor-802/?$ https://www.djk-zar.nl/gedragsregels/ [R=301,L,NE]
+RewriteRule ^en/sponsors-2/?$ https://www.djk-zar.nl/en/sponsors/ [R=301,L,NE]
+
+# Add the trailing slash while normalizing the host and scheme in one redirect.
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !\.[^/]+$
+RewriteRule ^(.+)$ https://www.djk-zar.nl/$1/ [R=301,L,NE]
+
+# Allow the temporary static subdomain alongside the canonical production host.
+RewriteCond %{HTTP_HOST} !^(?:www|static)\.djk-zar\.nl$ [NC]
+RewriteRule ^ https://www.djk-zar.nl%{REQUEST_URI} [R=301,L,NE]
+
+# Vimexx terminates TLS before Apache, so trust its forwarded HTTPS signal.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+RewriteRule ^ https://www.djk-zar.nl%{REQUEST_URI} [R=301,L,NE]
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Content-Security-Policy "frame-src https://tally.so https://www.google.com"
+
+  <FilesMatch "\.(?:css|gif|ico|jpe?g|js|pdf|png|svg|webp|woff2?)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+  <FilesMatch "\.(?:html|xml)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

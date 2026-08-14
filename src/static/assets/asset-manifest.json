@@ -1,0 +1,1773 @@
+{
+  "version": 1,
+  "capturedAt": "2026-08-12T21:19:33Z",
+  "notes": [
+    "Original WordPress uploads are retained when available. Standard 768px WordPress derivatives are renamed and retained only as declared responsive variants.",
+    "SVGs contain no scripts, event handlers, foreign objects, or external resource references. Empty editor metadata was removed.",
+    "Alt text is copied from the frozen rendered baseline. Empty or filename-like source text is explicitly flagged instead of replaced with invented facts.",
+    "The static review and social-feed images are frozen content. No plugin or live-feed asset is included."
+  ],
+  "assets": [
+    {
+      "kind": "image",
+      "path": "/assets/images/djk-zar-logo.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/logo-300x113.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/logo-768x288.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/logo.png"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "",
+      "variants": [
+        "/assets/images/djk-zar-logo-300.png"
+      ],
+      "notes": "Source alt is empty on every page. Use the linked home context or owner-approved text; do not invent factual alt text.",
+      "files": [
+        {
+          "path": "/assets/images/djk-zar-logo.png",
+          "width": 800,
+          "height": 300,
+          "format": "png",
+          "bytes": 15577
+        },
+        {
+          "path": "/assets/images/djk-zar-logo-300.png",
+          "width": 300,
+          "height": 113,
+          "format": "png",
+          "bytes": 7387
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/header-texture.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/bg-header.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/08/bg-header.png"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "",
+      "variants": [],
+      "notes": "Decorative 2px horizontal texture. The 2025/08 URL is byte-identical.",
+      "files": [
+        {
+          "path": "/assets/images/header-texture.png",
+          "width": 2,
+          "height": 300,
+          "format": "png",
+          "bytes": 97
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/logo-overlay.svg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/logo-overlay.svg"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/logo-overlay.svg",
+          "width": 257,
+          "height": 296,
+          "format": "svg",
+          "bytes": 30500
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/favicon.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/favicon-150x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/favicon-300x300.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/favicon.png"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [
+        "/assets/images/favicon-32.png",
+        "/assets/images/apple-touch-icon.png"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/favicon.png",
+          "width": 512,
+          "height": 512,
+          "format": "png",
+          "bytes": 246
+        },
+        {
+          "path": "/assets/images/favicon-32.png",
+          "width": 32,
+          "height": 32,
+          "format": "png",
+          "bytes": 274
+        },
+        {
+          "path": "/assets/images/apple-touch-icon.png",
+          "width": 180,
+          "height": 180,
+          "format": "png",
+          "bytes": 1015
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/djk-zar-social.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/djk-zar-social.png"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "djk-zar-social",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/djk-zar-social.png",
+          "width": 1200,
+          "height": 630,
+          "format": "png",
+          "bytes": 72235
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/pong-footer.webp",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho-1200x1243.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho-1483x1536.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho-290x300.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho-768x796.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho-988x1024.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/pong-loho.webp"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "pong",
+      "variants": [
+        "/assets/images/pong-footer-768.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/pong-footer.webp",
+          "width": 1668,
+          "height": 1728,
+          "format": "webp",
+          "bytes": 14012
+        },
+        {
+          "path": "/assets/images/pong-footer-768.webp",
+          "width": 768,
+          "height": 796,
+          "format": "webp",
+          "bytes": 31580
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-hero.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-amsterdam-slider.jpg"
+      ],
+      "owners": [
+        "/",
+        "/waterpolo/",
+        "/en/water-polo-amsterdam/",
+        "/en/waterpolo-rules/"
+      ],
+      "alt": "",
+      "variants": [
+        "/assets/images/water-polo-hero.avif"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-hero.jpg",
+          "width": 1000,
+          "height": 391,
+          "format": "jpeg",
+          "bytes": 74110
+        },
+        {
+          "path": "/assets/images/water-polo-hero.avif",
+          "width": 1000,
+          "height": 391,
+          "format": "avif",
+          "bytes": 31221
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-tournament.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/Waterpolo-Amsterdam-Toernooi-1024x768.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/Waterpolo-Amsterdam-Toernooi-300x225.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/Waterpolo-Amsterdam-Toernooi-768x576.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/Waterpolo-Amsterdam-Toernooi.jpg"
+      ],
+      "owners": [
+        "/",
+        "/contributie/",
+        "/en/water-polo-amsterdam/",
+        "/en/costs/"
+      ],
+      "alt": "Waterpolo Amsterdam Toernooi",
+      "variants": [
+        "/assets/images/water-polo-tournament-768.jpg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-tournament.jpg",
+          "width": 1080,
+          "height": 810,
+          "format": "jpeg",
+          "bytes": 186529
+        },
+        {
+          "path": "/assets/images/water-polo-tournament-768.jpg",
+          "width": 768,
+          "height": 576,
+          "format": "jpeg",
+          "bytes": 108539
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/mens-team-3.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/heren3-300x180.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/heren3-768x461.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/heren3.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "DJK-ZAR Heren 3",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/mens-team-3.jpg",
+          "width": 1024,
+          "height": 614,
+          "format": "jpeg",
+          "bytes": 124700
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-goal.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo_goal_amsterdam-300x135.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo_goal_amsterdam-768x345.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo_goal_amsterdam.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Waterpolo Goal Amsterdam",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-goal.jpg",
+          "width": 1000,
+          "height": 449,
+          "format": "jpeg",
+          "bytes": 112695
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/mens-team-1.webp",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK-1024x768.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK-1200x900.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK-1536x1152.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK-300x225.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK-768x576.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/Heren-1-DJK.webp"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Heren 1 Waterpolo",
+      "variants": [
+        "/assets/images/mens-team-1-768.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/mens-team-1.webp",
+          "width": 1600,
+          "height": 1200,
+          "format": "webp",
+          "bytes": 230004
+        },
+        {
+          "path": "/assets/images/mens-team-1-768.webp",
+          "width": 768,
+          "height": 576,
+          "format": "webp",
+          "bytes": 82054
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/womens-team.webp",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-1024x768.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-1200x900.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-1536x1152.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-1980x1485.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-300x225.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk-768x576.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/11/dames-djk.webp"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "dames-djk",
+      "variants": [
+        "/assets/images/womens-team-768.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/womens-team.webp",
+          "width": 1984,
+          "height": 1488,
+          "format": "webp",
+          "bytes": 242336
+        },
+        {
+          "path": "/assets/images/womens-team-768.webp",
+          "width": 768,
+          "height": 576,
+          "format": "webp",
+          "bytes": 85766
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/mens-team-4.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610-1024x688.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610-1200x807.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610-1536x1032.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610-300x202.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610-768x516.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/team4-e1683366637610.jpeg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Team 4",
+      "variants": [
+        "/assets/images/mens-team-4-768.jpeg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/mens-team-4.jpeg",
+          "width": 1766,
+          "height": 1187,
+          "format": "jpeg",
+          "bytes": 378575
+        },
+        {
+          "path": "/assets/images/mens-team-4-768.jpeg",
+          "width": 768,
+          "height": 516,
+          "format": "jpeg",
+          "bytes": 91818
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/mens-team-5.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image-1024x768.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image-1200x900.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image-1536x1152.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image-300x225.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image-768x576.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2024/04/WhatsApp-Apr-20-Image.jpeg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Heren 5",
+      "variants": [
+        "/assets/images/mens-team-5-768.jpeg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/mens-team-5.jpeg",
+          "width": 1600,
+          "height": 1200,
+          "format": "jpeg",
+          "bytes": 377191
+        },
+        {
+          "path": "/assets/images/mens-team-5-768.jpeg",
+          "width": 768,
+          "height": 576,
+          "format": "jpeg",
+          "bytes": 108646
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/mens-team-2.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-1024x768.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-1200x900.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-1536x1152.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-1980x1485.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-300x225.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56-768x576.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-13-at-23.31.56.jpeg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "heren 2",
+      "variants": [
+        "/assets/images/mens-team-2-768.jpeg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/mens-team-2.jpeg",
+          "width": 2048,
+          "height": 1536,
+          "format": "jpeg",
+          "bytes": 360021
+        },
+        {
+          "path": "/assets/images/mens-team-2-768.jpeg",
+          "width": 768,
+          "height": 576,
+          "format": "jpeg",
+          "bytes": 79160
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-team-2026.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2026/02/waterpolo-amsterdam-11-1024x682.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/02/waterpolo-amsterdam-11-300x200.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/02/waterpolo-amsterdam-11-768x511.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/02/waterpolo-amsterdam-11.jpeg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Waterpolo Amsterdam",
+      "variants": [
+        "/assets/images/water-polo-team-2026-768.jpeg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-team-2026.jpeg",
+          "width": 1197,
+          "height": 797,
+          "format": "jpeg",
+          "bytes": 140421
+        },
+        {
+          "path": "/assets/images/water-polo-team-2026-768.jpeg",
+          "width": 768,
+          "height": 511,
+          "format": "jpeg",
+          "bytes": 78087
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/womens-team-and-mario.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/106911491_3399135426786688_1382532964024970574_n-e1599996129392.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/thumbs/106911491_3399135426786688_1382532964024970574_n-e1599996129392-pmwz6xj9p36f4287vzjian2c86qzqbg6j23ndptoc0.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Waterpolo Dames en Mario",
+      "variants": [
+        "/assets/images/womens-team-and-mario.avif"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/womens-team-and-mario.jpg",
+          "width": 716,
+          "height": 716,
+          "format": "jpeg",
+          "bytes": 98933
+        },
+        {
+          "path": "/assets/images/womens-team-and-mario.avif",
+          "width": 716,
+          "height": 716,
+          "format": "avif",
+          "bytes": 40846
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/womens-team-amsterdam.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/117392113_792018461542889_5932258812721499781_n.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/thumbs/117392113_792018461542889_5932258812721499781_n-pmwz6upr4l2k58cbcgbml5ryg14w384zio56xvxuuo.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Waterpolo Dames Amsterdam",
+      "variants": [
+        "/assets/images/womens-team-amsterdam.avif"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/womens-team-amsterdam.jpg",
+          "width": 1080,
+          "height": 1080,
+          "format": "jpeg",
+          "bytes": 154993
+        },
+        {
+          "path": "/assets/images/womens-team-amsterdam.avif",
+          "width": 1080,
+          "height": 1080,
+          "format": "avif",
+          "bytes": 64720
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-champions.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/56649872_817301078625532_8604716300248416608_n.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/thumbs/56649872_817301078625532_8604716300248416608_n-pmwz6yh3vx7pfo6uqhy4v4tstkmcy0jwv6r4uzsa5s.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Waterpolo Amsterdam Kampioen",
+      "variants": [
+        "/assets/images/water-polo-champions.avif"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-champions.jpg",
+          "width": 768,
+          "height": 768,
+          "format": "jpeg",
+          "bytes": 97182
+        },
+        {
+          "path": "/assets/images/water-polo-champions.avif",
+          "width": 768,
+          "height": 768,
+          "format": "avif",
+          "bytes": 52729
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/join-womens-team.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-dames-e1599839259428-1024x750.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-dames-e1599839259428-300x220.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-dames-e1599839259428-768x562.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-dames-e1599839259428.jpg"
+      ],
+      "owners": [
+        "/speel-met-ons-mee/",
+        "/en/join-us/"
+      ],
+      "alt": "Waterpolo Dames Amsterdam",
+      "variants": [
+        "/assets/images/join-womens-team-768.jpg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/join-womens-team.jpg",
+          "width": 1076,
+          "height": 788,
+          "format": "jpeg",
+          "bytes": 163796
+        },
+        {
+          "path": "/assets/images/join-womens-team-768.jpg",
+          "width": 768,
+          "height": 562,
+          "format": "jpeg",
+          "bytes": 90470
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/join-womens-team-background.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-dames-1-e1599996670525.jpg"
+      ],
+      "owners": [
+        "/speel-met-ons-mee/",
+        "/en/join-us/"
+      ],
+      "alt": "",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/join-womens-team-background.jpg",
+          "width": 1076,
+          "height": 790,
+          "format": "jpeg",
+          "bytes": 161489
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/water-polo-rules.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-regels-300x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-regels-768x384.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/waterpolo-regels.png"
+      ],
+      "owners": [
+        "/waterpolo/",
+        "/en/waterpolo-rules/"
+      ],
+      "alt": "waterpolo regels - Waterpolo Amsterdam - DJK-ZAR",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/water-polo-rules.png",
+          "width": 800,
+          "height": 400,
+          "format": "png",
+          "bytes": 201344
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-jochem.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/02/jochem-voorzitter.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/thumbs/jochem-voorzitter-pmwz6fo9nix3rgmoyg3993vuv6rrck1ud0j2ynlpk0.jpeg"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "jochem voorzitter djk-zar",
+      "variants": [
+        "/assets/images/board-jochem-224.webp",
+        "/assets/images/board-jochem-380.webp"
+      ],
+      "notes": "The original portrait replaces the 400x400 Elementor crop; apply the square crop with CSS object-fit.",
+      "files": [
+        {
+          "path": "/assets/images/board-jochem.jpeg",
+          "width": 801,
+          "height": 931,
+          "format": "jpeg",
+          "bytes": 110877
+        },
+        {
+          "path": "/assets/images/board-jochem-224.webp",
+          "width": 224,
+          "height": 260,
+          "format": "webp",
+          "bytes": 5750
+        },
+        {
+          "path": "/assets/images/board-jochem-380.webp",
+          "width": 380,
+          "height": 442,
+          "format": "webp",
+          "bytes": 11538
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-group.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/bestuur3-150x150.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/bestuur3-300x300.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/bestuur3.jpg"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "DJK-ZAR Bestuur",
+      "variants": [
+        "/assets/images/board-group-224.webp",
+        "/assets/images/board-group-380.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/board-group.jpg",
+          "width": 444,
+          "height": 444,
+          "format": "jpeg",
+          "bytes": 41294
+        },
+        {
+          "path": "/assets/images/board-group-224.webp",
+          "width": 224,
+          "height": 224,
+          "format": "webp",
+          "bytes": 6192
+        },
+        {
+          "path": "/assets/images/board-group-380.webp",
+          "width": 380,
+          "height": 380,
+          "format": "webp",
+          "bytes": 13622
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-thijs.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2025/04/01-04-at-18.20.48@2x-150x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/04/01-04-at-18.20.48@2x-300x300.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/04/01-04-at-18.20.48@2x.png"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "thijs",
+      "variants": [
+        "/assets/images/board-thijs-224.webp",
+        "/assets/images/board-thijs-380.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/board-thijs.png",
+          "width": 680,
+          "height": 680,
+          "format": "png",
+          "bytes": 104217
+        },
+        {
+          "path": "/assets/images/board-thijs-224.webp",
+          "width": 224,
+          "height": 224,
+          "format": "webp",
+          "bytes": 3894
+        },
+        {
+          "path": "/assets/images/board-thijs-380.webp",
+          "width": 380,
+          "height": 380,
+          "format": "webp",
+          "bytes": 6892
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-maud.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/maud-150x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/maud-300x298.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2020/09/maud.png"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "DJK-ZAR Maud",
+      "variants": [
+        "/assets/images/board-maud-224.webp",
+        "/assets/images/board-maud-380.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/board-maud.png",
+          "width": 601,
+          "height": 597,
+          "format": "png",
+          "bytes": 598414
+        },
+        {
+          "path": "/assets/images/board-maud-224.webp",
+          "width": 224,
+          "height": 223,
+          "format": "webp",
+          "bytes": 11650
+        },
+        {
+          "path": "/assets/images/board-maud-380.webp",
+          "width": 380,
+          "height": 377,
+          "format": "webp",
+          "bytes": 30516
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-mark.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-06-at-13.56.07-150x150.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-06-at-13.56.07.jpeg"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "mark",
+      "variants": [
+        "/assets/images/board-mark-224.webp",
+        "/assets/images/board-mark-380.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/board-mark.jpeg",
+          "width": 300,
+          "height": 300,
+          "format": "jpeg",
+          "bytes": 30411
+        },
+        {
+          "path": "/assets/images/board-mark-224.webp",
+          "width": 224,
+          "height": 224,
+          "format": "webp",
+          "bytes": 8668
+        },
+        {
+          "path": "/assets/images/board-mark-380.webp",
+          "width": 380,
+          "height": 380,
+          "format": "webp",
+          "bytes": 17142
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/board-member.jpeg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-15.04.07-150x150.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-15.04.07-300x300.jpeg",
+        "https://www.djk-zar.nl/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-24-at-15.04.07.jpeg"
+      ],
+      "owners": [
+        "/bestuur/",
+        "/en/djk-zar/"
+      ],
+      "alt": "WhatsApp Image 2025 07 24 at 15.04.07 - Waterpolo Amsterdam - DJK-ZAR",
+      "variants": [
+        "/assets/images/board-member-224.webp",
+        "/assets/images/board-member-380.webp"
+      ],
+      "notes": "Source alt is a filename and is flagged for owner review.",
+      "files": [
+        {
+          "path": "/assets/images/board-member.jpeg",
+          "width": 640,
+          "height": 640,
+          "format": "jpeg",
+          "bytes": 92062
+        },
+        {
+          "path": "/assets/images/board-member-224.webp",
+          "width": 224,
+          "height": 224,
+          "format": "webp",
+          "bytes": 16674
+        },
+        {
+          "path": "/assets/images/board-member-380.webp",
+          "width": 380,
+          "height": 380,
+          "format": "webp",
+          "bytes": 40306
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-pong.webp",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/pong_logo-150x150.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/pong_logo-300x300.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/pong_logo-768x768.webp",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/09/pong_logo.webp"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "pong logo",
+      "variants": [
+        "/assets/images/sponsor-pong-768.webp"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-pong.webp",
+          "width": 814,
+          "height": 814,
+          "format": "webp",
+          "bytes": 7340
+        },
+        {
+          "path": "/assets/images/sponsor-pong-768.webp",
+          "width": 768,
+          "height": 768,
+          "format": "webp",
+          "bytes": 8372
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-maverick.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2026/03/Maverick-Logo-1024x680.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/03/Maverick-Logo-1200x797.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/03/Maverick-Logo-300x199.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/03/Maverick-Logo-768x510.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2026/03/Maverick-Logo.png"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "Maverick",
+      "variants": [
+        "/assets/images/sponsor-maverick-768.png"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-maverick.png",
+          "width": 1223,
+          "height": 812,
+          "format": "png",
+          "bytes": 81226
+        },
+        {
+          "path": "/assets/images/sponsor-maverick-768.png",
+          "width": 768,
+          "height": 510,
+          "format": "png",
+          "bytes": 69052
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-heemstede.svg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2021/08/heemstede.svg"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "heemstede - Waterpolo Amsterdam - DJK-ZAR",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-heemstede.svg",
+          "width": 2285,
+          "height": 2285,
+          "format": "svg",
+          "bytes": 12649
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-ambiance-tetteroo.svg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/ambiance-tetteroo.svg"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "Ambiance Tetteroo",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-ambiance-tetteroo.svg",
+          "width": 146,
+          "height": 146,
+          "format": "svg",
+          "bytes": 4519
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-pindakaas-media.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/Screenshot-2022-05-04-at-14.45.56-1024x447.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/Screenshot-2022-05-04-at-14.45.56-1200x524.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/Screenshot-2022-05-04-at-14.45.56-300x131.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/Screenshot-2022-05-04-at-14.45.56-768x335.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/Screenshot-2022-05-04-at-14.45.56.jpg"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "Pindakaas Media",
+      "variants": [
+        "/assets/images/sponsor-pindakaas-media-768.jpg"
+      ],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-pindakaas-media.jpg",
+          "width": 1462,
+          "height": 638,
+          "format": "jpeg",
+          "bytes": 103901
+        },
+        {
+          "path": "/assets/images/sponsor-pindakaas-media-768.jpg",
+          "width": 768,
+          "height": 335,
+          "format": "jpeg",
+          "bytes": 38729
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/sponsor-jouw-groenteman.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/jouw-groenteman-150x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2022/05/jouw-groenteman.png"
+      ],
+      "owners": [
+        "/sponsors/",
+        "/en/sponsors/"
+      ],
+      "alt": "jouw groenteman - Waterpolo Amsterdam - DJK-ZAR",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/sponsor-jouw-groenteman.png",
+          "width": 300,
+          "height": 300,
+          "format": "png",
+          "bytes": 7999
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/pdf-icon.png",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2021/06/PDF-icon-150x150.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2021/06/PDF-icon-300x300.png",
+        "https://www.djk-zar.nl/wp-content/uploads/2021/06/PDF-icon.png"
+      ],
+      "owners": [
+        "/gedragsregels/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": "PDF icon - Waterpolo Amsterdam - DJK-ZAR",
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/images/pdf-icon.png",
+          "width": 512,
+          "height": 512,
+          "format": "png",
+          "bytes": 6477
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/instagram-water-polo.avif",
+      "sourceUrls": [],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "",
+      "variants": [
+        "/assets/images/instagram-water-polo.png"
+      ],
+      "notes": "Owner-supplied Instagram water polo mark, resized to its maximum rendered density with AVIF and PNG fallback.",
+      "files": [
+        {
+          "path": "/assets/images/instagram-water-polo.avif",
+          "width": 440,
+          "height": 440,
+          "format": "avif",
+          "bytes": 6261
+        },
+        {
+          "path": "/assets/images/instagram-water-polo.png",
+          "width": 440,
+          "height": 440,
+          "format": "png",
+          "bytes": 183608
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/instagram-game.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/467630466_18118646269411043_8223186205429543901_nfull.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/467630466_18118646269411043_8223186205429543901_nlow.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "• • • • •  #waterpolo #game #amsterdam",
+      "variants": [],
+      "notes": "Frozen production feed image captured 2026-08-12; no live feed dependency.",
+      "files": [
+        {
+          "path": "/assets/images/instagram-game.jpg",
+          "width": 640,
+          "height": 640,
+          "format": "jpeg",
+          "bytes": 52420
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/instagram-results.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468107889_18118879543411043_5639252138541327190_nfull.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468107889_18118879543411043_5639252138541327190_nlow.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Results from yesterday! 💫",
+      "variants": [],
+      "notes": "Frozen production feed image captured 2026-08-12; no live feed dependency.",
+      "files": [
+        {
+          "path": "/assets/images/instagram-results.jpg",
+          "width": 640,
+          "height": 640,
+          "format": "jpeg",
+          "bytes": 64416
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/instagram-schedule.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468628300_18119252236411043_8923537769828435465_nfull.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468628300_18119252236411043_8923537769828435465_nlow.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Check out the schedule for this Saturday! Go DJK-ZAR!!!🤽🏻‍♀️🤽🏻",
+      "variants": [],
+      "notes": "Frozen production feed image captured 2026-08-12; no live feed dependency.",
+      "files": [
+        {
+          "path": "/assets/images/instagram-schedule.jpg",
+          "width": 640,
+          "height": 640,
+          "format": "jpeg",
+          "bytes": 67281
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "/assets/images/instagram-comeback.jpg",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468885816_18119778391411043_6147961705457354802_nfull.jpg",
+        "https://www.djk-zar.nl/wp-content/uploads/sb-instagram-feed-images/468885816_18119778391411043_6147961705457354802_nlow.jpg"
+      ],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": "Not the results we hoped for this Saturday, but every setback is a setup for a comeback. Proud of the effort from all our teams—let’s bounce back stronger next time! Go DJK-ZAR. • • • • •  #game #waterpolo #results",
+      "variants": [],
+      "notes": "Frozen production feed image captured 2026-08-12; no live feed dependency.",
+      "files": [
+        {
+          "path": "/assets/images/instagram-comeback.jpg",
+          "width": 640,
+          "height": 640,
+          "format": "jpeg",
+          "bytes": 63412
+        }
+      ]
+    },
+    {
+      "kind": "document",
+      "path": "/assets/documents/gedragsregels-en-vertrouwenspersoon.pdf",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2021/06/Gedragsregels-en-vertrouwenspersoon-DJK-ZAR-20210620.pdf"
+      ],
+      "owners": [
+        "/gedragsregels/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/documents/gedragsregels-en-vertrouwenspersoon.pdf",
+          "width": null,
+          "height": null,
+          "format": "pdf",
+          "bytes": 359203
+        }
+      ]
+    },
+    {
+      "kind": "document",
+      "path": "/assets/documents/privacy-verklaring-djkzar.pdf",
+      "sourceUrls": [],
+      "owners": [
+        "/",
+        "/en/water-polo-amsterdam/"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/documents/privacy-verklaring-djkzar.pdf",
+          "width": null,
+          "height": null,
+          "format": "pdf",
+          "bytes": 57932
+        }
+      ]
+    },
+    {
+      "kind": "document",
+      "path": "/assets/documents/machtiging-djk.pdf",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/2023/05/Machtiging-D.J.K.pdf"
+      ],
+      "owners": [
+        "/speel-met-ons-mee/",
+        "/en/join-us/"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/documents/machtiging-djk.pdf",
+          "width": null,
+          "height": null,
+          "format": "pdf",
+          "bytes": 222685
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/inter-upright-variable.woff2",
+      "sourceUrls": [
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Inter var",
+      "style": "normal",
+      "weight": "100 900",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/inter-upright-variable.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 48432
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/inter-italic-variable.woff2",
+      "sourceUrls": [
+        "https://fonts.gstatic.com/s/inter/v20/UcC53FwrK3iLTcvneQg7Ca725JhhKnNqk6L5UUMbndwV.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Inter var",
+      "style": "italic",
+      "weight": "100 900",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/inter-italic-variable.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 51636
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/roboto-upright-variable-latin.woff2",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluama3yuba.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Roboto",
+      "style": "normal",
+      "weight": "100 900",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/roboto-upright-variable-latin.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 40128
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/roboto-italic-variable-latin.woff2",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo5cnqeu92fr1mu53zec9_vu3r1gihoszmkbnka.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Roboto",
+      "style": "italic",
+      "weight": "100 900",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/roboto-italic-variable-latin.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 44192
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/poppins-500-latin.woff2",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlgt9z1xlfq.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Poppins",
+      "style": "normal",
+      "weight": "500",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/poppins-500-latin.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 7748
+        }
+      ]
+    },
+    {
+      "kind": "font",
+      "path": "/assets/fonts/poppins-700-italic-latin.woff2",
+      "sourceUrls": [
+        "https://www.djk-zar.nl/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxidyp8kv8jhgfvrjjlmy15vf9eo.woff2"
+      ],
+      "owners": [
+        "/",
+        "/speel-met-ons-mee/",
+        "/waterpolo/",
+        "/extra-informatie/",
+        "/contributie/",
+        "/sponsors/",
+        "/bestuur/",
+        "/contact/",
+        "/gedragsregels/",
+        "/teams/",
+        "/en/water-polo-amsterdam/",
+        "/en/join-us/",
+        "/en/waterpolo-rules/",
+        "/en/extra-information/",
+        "/en/costs/",
+        "/en/sponsors/",
+        "/en/djk-zar/",
+        "/en/contact-us/",
+        "/en/code-of-conduct/"
+      ],
+      "alt": null,
+      "variants": [],
+      "family": "Poppins",
+      "style": "italic",
+      "weight": "700",
+      "license": "SIL Open Font License 1.1",
+      "files": [
+        {
+          "path": "/assets/fonts/poppins-700-italic-latin.woff2",
+          "width": null,
+          "height": null,
+          "format": "woff2",
+          "bytes": 8596
+        }
+      ]
+    },
+    {
+      "kind": "stylesheet",
+      "path": "/assets/fonts/fonts.css",
+      "sourceUrls": [],
+      "owners": [
+        "shared"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/fonts/fonts.css",
+          "width": null,
+          "height": null,
+          "format": "css",
+          "bytes": 1022
+        }
+      ]
+    },
+    {
+      "kind": "license",
+      "path": "/assets/fonts/LICENSE-inter.txt",
+      "sourceUrls": [
+        "https://github.com/rsms/inter/blob/master/LICENSE.txt"
+      ],
+      "owners": [
+        "shared"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/fonts/LICENSE-inter.txt",
+          "width": null,
+          "height": null,
+          "format": "txt",
+          "bytes": 4380
+        }
+      ]
+    },
+    {
+      "kind": "license",
+      "path": "/assets/fonts/LICENSE-roboto.txt",
+      "sourceUrls": [
+        "https://github.com/google/fonts/blob/main/ofl/roboto/OFL.txt"
+      ],
+      "owners": [
+        "shared"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/fonts/LICENSE-roboto.txt",
+          "width": null,
+          "height": null,
+          "format": "txt",
+          "bytes": 4394
+        }
+      ]
+    },
+    {
+      "kind": "license",
+      "path": "/assets/fonts/LICENSE-poppins.txt",
+      "sourceUrls": [
+        "https://github.com/google/fonts/blob/main/ofl/poppins/OFL.txt"
+      ],
+      "owners": [
+        "shared"
+      ],
+      "alt": null,
+      "variants": [],
+      "files": [
+        {
+          "path": "/assets/fonts/LICENSE-poppins.txt",
+          "width": null,
+          "height": null,
+          "format": "txt",
+          "bytes": 4385
+        }
+      ]
+    }
+  ]
+}
