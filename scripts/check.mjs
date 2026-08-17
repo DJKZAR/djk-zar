@@ -103,6 +103,7 @@ assert.match(apache, /RewriteRule \^\(\.\+\)\$ https:\/\/www\.djk-zar\.nl\/\$1\/
 assert.match(apache, /\(\?:www\|static\)\\\.djk-zar/);
 assert.match(apache, /HTTP:X-Forwarded-Proto/);
 assert.match(apache, /Content-Security-Policy "frame-src https:\/\/tally\.so https:\/\/www\.google\.com"/);
+assert.match(apache, /FilesMatch "\\\.\(\?:avif\|.*woff2\?\)\$"[\s\S]*Cache-Control "public, max-age=2592000"/);
 assert.match(home, /<link rel="stylesheet" href="\/styles\.css\?v=13">/);
 assert.match(home, /<script src="\/navigation\.js\?v=9" defer><\/script>/);
 
