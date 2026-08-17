@@ -80,7 +80,7 @@ Unknown paths return 404 and are never redirected to the homepage. WordPress fee
 
 Build on a workstation or CI runner, then upload the contents of `dist/` to the hosting document root. The checked-in `src/static/.htaccess` provides:
 
-- `DirectoryIndex index.html` and disabled directory listings
+- `DirectoryIndex index.html index.php` and disabled directory listings, allowing the archived WordPress site under `/old/` to use its PHP entry point
 - `ErrorDocument 404 /404.html`
 - direct permanent route redirects
 - HTTPS, canonical-host, and trailing-slash normalization
