@@ -126,7 +126,7 @@ export function renderPage(page) {
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <title>${escape(page.title)}</title>
   <meta name="description" content="${escape(page.description)}">
-${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=13">
+${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=19">
 ${renderSeo(page)}</head>
 <body>
   <a class="skip-link" href="#main">${en ? "Skip to the content" : "Ga naar de inhoud"}</a>
@@ -141,11 +141,12 @@ ${renderSeo(page)}</head>
       </div>
     </div>
   </header>
+  ${page.route === nav.contact[1] ? "" : `<a class="mobile-training-link" href="${nav.contact[1]}"><span>${en ? "Join a training?" : "Keertje meetrainen?"}</span><span class="mobile-training-arrow" aria-hidden="true"><svg viewBox="0 0 12 12" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></span></a>`}
   <main class="site-main" id="main">
 ${page.main}
   </main>
   ${renderFooter(page)}
-  <script src="/navigation.js?v=9" defer></script>
+  <script src="/navigation.js?v=11" defer></script>
 ${page.script ? `  <script src="${escape(page.script)}" defer></script>\n` : ""}</body>
 </html>
 `;

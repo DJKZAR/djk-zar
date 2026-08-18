@@ -1,6 +1,14 @@
 const desktopQuery = matchMedia("(min-width: 1201px)");
 const mobileNav = document.querySelector(".mobile-nav");
 const menuToggle = mobileNav?.querySelector(".menu-toggle");
+const trainingLink = document.querySelector(".mobile-training-link");
+
+function setTrainingLink() {
+  trainingLink?.classList.toggle("is-visible", scrollY >= innerHeight);
+}
+
+setTrainingLink();
+addEventListener("scroll", setTrainingLink, { passive: true });
 
 for (const menu of document.querySelectorAll(".desktop-menu .nav-group")) {
   menu.addEventListener("mouseenter", () => {

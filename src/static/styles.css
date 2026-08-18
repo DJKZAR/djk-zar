@@ -56,7 +56,7 @@ p { margin: 0 0 1em; font-family: Poppins, sans-serif; font-size: 1rem; line-hei
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; border-radius: 999px; padding: .65rem 1.65rem; font: 500 .9rem Poppins, sans-serif; text-transform: uppercase; }
 .contact-button, .button-primary { color: white; background: var(--red); }
 .button-light { min-width: 145px; color: var(--ink); background: white; font-family: Roboto, sans-serif; font-weight: 700; }
-.mobile-nav { display: none; }
+.mobile-nav, .mobile-training-link { display: none; }
 .site-main { padding-top: 113px; background: var(--paper); }
 
 .top-hero { position: relative; display: grid; place-items: center; min-height: 440px; padding: 0 20px 45px; color: white; background: linear-gradient(rgb(25 56 112 / 62%), rgb(25 56 112 / 62%)), var(--top-hero-image) center / cover; text-align: center; }
@@ -121,6 +121,12 @@ p a, li a { text-decoration: underline; }
   .site-logo { flex-basis: 250px; width: 250px; }
   .desktop-menu, .contact-button { display: none; }
   .mobile-nav { display: block; margin-left: auto; }
+  .mobile-training-link { position: fixed; z-index: 19; top: 88px; right: 0; left: 0; display: flex; align-items: center; justify-content: center; gap: .55rem; min-height: 50px; padding: .65rem 1rem; visibility: hidden; opacity: 0; pointer-events: none; transform: translateY(-100%); color: white; background: var(--red); box-shadow: 0 3px 8px rgb(0 0 0 / 16%); cursor: pointer; font: 700 .9rem Roboto, sans-serif; letter-spacing: .02em; text-transform: none; transition: opacity .2s ease, transform .25s ease, visibility 0s linear .25s; }
+  .mobile-training-arrow { display: grid; flex: 0 0 1.7rem; place-items: center; width: 1.7rem; height: 1.7rem; border-radius: 50%; color: var(--red); background: white; transition: transform .2s ease; }
+  .mobile-training-arrow svg { width: .75rem; height: .75rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.75; }
+  .mobile-training-link.is-visible { visibility: visible; opacity: 1; pointer-events: auto; transform: translateY(0); transition-delay: 0s; }
+  .mobile-training-link:hover { color: white; text-decoration: none; }
+  .mobile-training-link:hover .mobile-training-arrow { transform: translateX(.15rem); }
   .menu-toggle { display: grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 0; border-radius: 0; color: white; background: transparent; -webkit-appearance: none; cursor: pointer; }
   .menu-toggle:hover { background: rgb(255 255 255 / 10%); }
   .menu-toggle span { font: 2.6rem/.8 sans-serif; }
