@@ -126,7 +126,7 @@ export function renderPage(page) {
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <title>${escape(page.title)}</title>
   <meta name="description" content="${escape(page.description)}">
-${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=19">
+${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=20">
 ${renderSeo(page)}</head>
 <body>
   <a class="skip-link" href="#main">${en ? "Skip to the content" : "Ga naar de inhoud"}</a>

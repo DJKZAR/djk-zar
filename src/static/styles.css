@@ -170,6 +170,20 @@ p a, li a { text-decoration: underline; }
   .footer-info > section:first-child { border-top: 0; }
 }
 
+/* Refined quote cards. */
+.home-quote {
+  min-height: 240px;
+  padding: 1.7rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgb(6 52 71 / 8%);
+}
+.site-main .home-quote::before { color: var(--green-bright); }
+@media (max-width: 600px) {
+  .home-quote { min-height: 0; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }

@@ -105,7 +105,7 @@ assert.match(apache, /HTTP:X-Forwarded-Proto/);
 assert.match(apache, /Content-Security-Policy "frame-src https:\/\/tally\.so https:\/\/www\.google\.com"/);
 assert.match(apache, /FilesMatch "\\\.\(\?:avif\|.*woff2\?\)\$"[\s\S]*Cache-Control "public, max-age=2592000"/);
 assert.match(home, /<link rel="icon" type="image\/png" href="\/assets\/images\/favicon-96\.png" sizes="96x96">/);
-assert.match(home, /<link rel="stylesheet" href="\/styles\.css\?v=19">/);
+assert.match(home, /<link rel="stylesheet" href="\/styles\.css\?v=20">/);
 assert.match(home, /<script src="\/navigation\.js\?v=11" defer><\/script>/);
 assert.match(home, /<a class="mobile-training-link" href="\/contact\/"><span>Keertje meetrainen\?<\/span><span class="mobile-training-arrow" aria-hidden="true"><svg viewBox="0 0 12 12" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"\/><\/svg><\/span><\/a>/);
 assert.match(enHome, /<a class="mobile-training-link" href="\/en\/contact-us\/"><span>Join a training\?<\/span>/);
