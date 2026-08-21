@@ -171,6 +171,7 @@
       "alt": null,
       "variants": [
         "/assets/images/favicon-32.png",
+        "/assets/images/favicon-96.png",
         "/assets/images/apple-touch-icon.png"
       ],
       "files": [
@@ -187,6 +188,13 @@
           "height": 32,
           "format": "png",
           "bytes": 274
+        },
+        {
+          "path": "/assets/images/favicon-96.png",
+          "width": 96,
+          "height": 96,
+          "format": "png",
+          "bytes": 498
         },
         {
           "path": "/assets/images/apple-touch-icon.png",

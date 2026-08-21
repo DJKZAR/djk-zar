@@ -122,7 +122,7 @@ export function renderPage(page) {
     gtag('js', new Date());
     gtag('config', 'G-YNLVDLE9C0');
   </script>
-  <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicon-96.png" sizes="96x96">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <title>${escape(page.title)}</title>
   <meta name="description" content="${escape(page.description)}">
