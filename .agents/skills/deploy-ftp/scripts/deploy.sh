@@ -22,6 +22,7 @@ done
 [[ "$DEPLOY_PUBLIC_URL" == https://* ]] || { echo "DEPLOY_PUBLIC_URL must start with https://" >&2; exit 1; }
 
 npm run check
+[[ -d tournament ]] || { echo "Missing local tournament directory" >&2; exit 1; }
 
 escape_config() { local value=${1//\\/\\\\}; printf '%s' "${value//\"/\\\"}"; }
 auth=$(mktemp)
@@ -38,7 +39,16 @@ while IFS= read -r -d '' file; do
   ((count += 1))
 done < <(find dist -type f -print0)
 
-echo "Uploaded $count files. Verifying ${DEPLOY_PUBLIC_URL%/}/"
+# This local, gitignored directory is deliberately kept outside the generated site and its checks.
+tournament_count=0
+while IFS= read -r -d '' file; do
+  relative=${file#tournament/}
+  curl --config "$auth" --fail --silent --show-error --ssl-reqd --ftp-create-dirs \
+    --upload-file "$file" "${DEPLOY_FTP_URL}tournament/${relative}"
+  ((tournament_count += 1))
+done < <(find tournament -type f -print0)
+
+echo "Uploaded $count site files and $tournament_count tournament files. Verifying ${DEPLOY_PUBLIC_URL%/}/"
 curl --fail --silent --show-error "${DEPLOY_PUBLIC_URL%/}/" >/dev/null
 curl --fail --silent --show-error "${DEPLOY_PUBLIC_URL%/}/styles.css" >/dev/null
 curl --fail --silent --show-error "${DEPLOY_PUBLIC_URL%/}/navigation.js" >/dev/null

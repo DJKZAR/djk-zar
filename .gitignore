@@ -1,6 +1,9 @@
 # Generated output
 /dist/
 
+# Locally managed FTP content, deployed separately without build or audit checks
+/tournament/
+
 # Local credentials and environment files
 .env
 .env.*
