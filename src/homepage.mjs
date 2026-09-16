@@ -1,4 +1,5 @@
 import { renderSectionHeading, renderTopHero } from "./layout.mjs";
+import { imageSource } from "./images.mjs";
 
 const teams = [
   ["Dames", "3E KLASSE B", "Women’s team", "3RD CLASS B", "/assets/images/womens-team.webp"],
@@ -80,11 +81,11 @@ const styles = `<style>
 function render(c) {
   return `    ${renderTopHero({ image: "/assets/images/water-polo-hero.avif", title: c.hero[0], text: c.hero[1], href: c.lang === "nl-NL" ? "/speel-met-ons-mee/" : "/en/join-us/", label: c.hero[2], heading: false })}
     <section class="home-intro">${renderSectionHeading({ kicker: c.intro[0], title: c.intro[1], level: 1 })}<div class="home-intro-copy"><p>${c.intro[2]}</p></div></section>
-    <section class="home-features">${c.features.map(([title, text, image]) => `<article class="home-feature"><img src="${image}" alt="" loading="lazy" fetchpriority="low"><div><h2>${title}</h2><p>${text}</p></div></article>`).join("")}</section>
+    <section class="home-features">${c.features.map(([title, text, image]) => `<article class="home-feature"><img ${imageSource(image, "(max-width: 600px) calc(100vw - 40px), (max-width: 1100px) calc((100vw - 50px) / 3), 350px")} alt="" loading="lazy" fetchpriority="low"><div><h2>${title}</h2><p>${text}</p></div></article>`).join("")}</section>
     <section class="home-testimonials" aria-label="${c.lang === "nl-NL" ? "Ervaringen van leden" : "Member experiences"}">${c.testimonials.map(([text, name, role]) => `<blockquote class="home-quote"><p>${text}</p><strong>${name}</strong><small>${role}</small></blockquote>`).join("")}</section>
     <section class="home-teams-intro">${renderSectionHeading({ kicker: "TEAMS", title: c.teamsTitle })}<div><p>${c.teamsText}</p><a class="button button-primary" href="${c.lang === "nl-NL" ? "/speel-met-ons-mee/" : "/en/join-us/"}">${c.join}</a></div></section>
-    <div class="home-team-list">${teams.map(([name, level, enName, enLevel, image], index) => { const english = c.lang === "en-GB"; return `<article class="home-team"><div><p class="eyebrow">${english ? enLevel : level}</p><h3>${english ? enName : name}</h3><p>${c.descriptions[index]}</p>${index === teams.length - 1 ? `<a class="button button-primary" href="${c.beginnerLink[0]}">${c.beginnerLink[1]}</a>` : ""}</div><img src="${image}" alt="${english ? enName : name}" loading="lazy" fetchpriority="low"></article>`; }).join("")}</div>
-    <section class="home-instagram">${renderSectionHeading({ kicker: c.instagram[0], title: c.instagram[1] })}<a class="instagram-logo" href="https://www.instagram.com/djkzaramsterdam/" rel="nofollow noopener" aria-label="${c.instagram[3]}"><picture><source srcset="/assets/images/instagram-water-polo.avif" type="image/avif"><img src="/assets/images/instagram-water-polo.png" width="440" height="440" alt="" loading="lazy" fetchpriority="low"></picture></a></section>`;
+    <div class="home-team-list">${teams.map(([name, level, enName, enLevel, image], index) => { const english = c.lang === "en-GB"; return `<article class="home-team"><div><p class="eyebrow">${english ? enLevel : level}</p><h3>${english ? enName : name}</h3><p>${c.descriptions[index]}</p>${index === teams.length - 1 ? `<a class="button button-primary" href="${c.beginnerLink[0]}">${c.beginnerLink[1]}</a>` : ""}</div><img ${imageSource(image, "(max-width: 600px) calc(100vw - 40px), (max-width: 1160px) calc((100vw - 150px) / 2), 505px")} alt="${english ? enName : name}" loading="lazy" fetchpriority="low"></article>`; }).join("")}</div>
+    <section class="home-instagram">${renderSectionHeading({ kicker: c.instagram[0], title: c.instagram[1] })}<a class="instagram-logo" href="https://www.instagram.com/djkzaramsterdam/" rel="nofollow noopener" aria-label="${c.instagram[3]}"><img src="/assets/images/instagram-water-polo.avif" width="440" height="440" alt="" loading="lazy" fetchpriority="low"></a></section>`;
 }
 
 export function homepage(locale) {

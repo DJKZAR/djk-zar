@@ -45,6 +45,7 @@ Update structural checks whenever routes or SEO behavior change. Verify the gene
 
 - Keep Dutch and English counterpart pages structurally and factually aligned.
 - Use local assets and existing shared patterns before adding code or dependencies.
+- For every new, replaced or updated image, read and follow `.agents/skills/optimize-images/SKILL.md`. Use its script to generate appropriately sized derivatives, update the asset manifest and verify all affected pages.
 - Always bump the shared layout's cache-busting query version when changing referenced CSS or JavaScript, and update its structural check.
 - Preserve accessibility basics, keyboard behavior, reduced-motion support, and progressive enhancement.
 - Add the smallest durable automated check for non-trivial behavior.

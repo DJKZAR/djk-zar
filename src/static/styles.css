@@ -76,7 +76,7 @@ p { margin: 0 0 1em; font-family: Poppins, sans-serif; font-size: 1rem; line-hei
 .section-green h1, .section-green h2, .section-green h3, .hero h1, .hero h2, .hero h3 { color: white; }
 .eyebrow { margin-bottom: 1rem; color: var(--muted); font: 500 .75rem Poppins, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
 .constrained { max-width: var(--text); margin-inline: auto; }
-.hero { min-height: 510px; display: grid; place-items: center; color: white; background: linear-gradient(rgb(18 52 105 / 68%), rgb(18 52 105 / 68%)), url("/assets/images/join-womens-team-background.jpg") center / cover; text-align: center; }
+.hero { min-height: 510px; display: grid; place-items: center; color: white; background: linear-gradient(rgb(18 52 105 / 68%), rgb(18 52 105 / 68%)), url("/assets/images/join-womens-team-background-web-1076.avif") center / cover; text-align: center; }
 .hero-content { max-width: 800px; padding: 4rem 1rem; }
 .card-grid, .people-grid, .sponsor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
 .card { overflow: hidden; background: white; border: 1px solid var(--line); box-shadow: var(--shadow); }

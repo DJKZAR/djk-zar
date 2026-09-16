@@ -1,4 +1,5 @@
 import { renderSectionHeading } from "../layout.mjs";
+import { imageSource } from "../images.mjs";
 
 export default {
   route: "/reference.html",
@@ -16,26 +17,26 @@ export default {
     </section>
     <section class="section section-soft">
       <div class="card-grid">
-        <article class="card"><img src="/assets/images/womens-team-amsterdam.jpg" width="716" height="716" alt="Waterpoloteam"><div class="card-body"><h3>Teamuitjes</h3><p>Kaart met afbeelding, kop en korte tekst.</p></div></article>
-        <article class="card"><img src="/assets/images/mens-team-3.jpg" width="1024" height="614" alt="Waterpoloteam met clubvlag"><div class="card-body"><h3>Wedstrijden</h3><p>Dezelfde kaart schaalt naar twee en één kolom.</p></div></article>
-        <article class="card"><img src="/assets/images/womens-team-and-mario.jpg" width="716" height="716" alt="Waterpolospelers"><div class="card-body"><h3>Onze leden</h3><p>Lokale afbeeldingen behouden hun vaste uitsnede.</p></div></article>
+        <article class="card"><img ${imageSource("/assets/images/womens-team-amsterdam.avif")} loading="lazy" alt="Waterpoloteam"><div class="card-body"><h3>Teamuitjes</h3><p>Kaart met afbeelding, kop en korte tekst.</p></div></article>
+        <article class="card"><img ${imageSource("/assets/images/mens-team-3.jpg", "(max-width: 760px) calc(100vw - 50px), 350px")} loading="lazy" alt="Waterpoloteam met clubvlag"><div class="card-body"><h3>Wedstrijden</h3><p>Dezelfde kaart schaalt naar twee en één kolom.</p></div></article>
+        <article class="card"><img ${imageSource("/assets/images/womens-team-and-mario.avif")} loading="lazy" alt="Waterpolospelers"><div class="card-body"><h3>Onze leden</h3><p>Lokale afbeeldingen behouden hun vaste uitsnede.</p></div></article>
       </div>
     </section>
     <section class="section image-text">
       <div><p class="eyebrow">Afbeelding en tekst</p><h2>Onze teams</h2><p>Een eenvoudige tweekolomsrij wordt op smalle schermen één kolom.</p><a class="button button-primary" href="/speel-met-ons-mee/">Speel met ons mee</a></div>
-      <img src="/assets/images/water-polo-team-2026.jpeg" width="1197" height="797" alt="DJK-ZAR waterpoloteam">
+      <img ${imageSource("/assets/images/water-polo-team-2026.jpeg", "(max-width: 760px) calc(100vw - 50px), 540px")} loading="lazy" alt="DJK-ZAR waterpoloteam">
     </section>
     <section class="section team-list">
-      <article class="team-row"><div><p class="eyebrow">Bond 3e klasse</p><h3>Dames</h3><p>Teamrij met label, kop, tekst en een beeld in een vaste responsive volgorde.</p></div><img src="/assets/images/womens-team.webp" width="1984" height="1488" alt="Dames waterpoloteam"></article>
-      <article class="team-row"><div><p class="eyebrow">Reserve 1e klasse</p><h3>Heren 1</h3><p>Afwisselende rijen gebruiken hetzelfde patroon zonder paginaspecifieke layoutcode.</p></div><img src="/assets/images/mens-team-1.webp" width="1600" height="1200" alt="Heren waterpoloteam"></article>
+      <article class="team-row"><div><p class="eyebrow">Bond 3e klasse</p><h3>Dames</h3><p>Teamrij met label, kop, tekst en een beeld in een vaste responsive volgorde.</p></div><img ${imageSource("/assets/images/womens-team.webp", "(max-width: 760px) calc(100vw - 50px), 540px")} loading="lazy" alt="Dames waterpoloteam"></article>
+      <article class="team-row"><div><p class="eyebrow">Reserve 1e klasse</p><h3>Heren 1</h3><p>Afwisselende rijen gebruiken hetzelfde patroon zonder paginaspecifieke layoutcode.</p></div><img ${imageSource("/assets/images/mens-team-1.webp", "(max-width: 760px) calc(100vw - 50px), 540px")} loading="lazy" alt="Heren waterpoloteam"></article>
     </section>
     <section class="section">
       <div class="people-grid">
-        <article class="person"><img src="/assets/images/board-jochem.jpeg" width="801" height="931" alt="Jochem Lindelauf"><h3>Jochem Lindelauf</h3><p>Voorzitter</p></article>
-        <article class="person"><img src="/assets/images/board-member.jpeg" width="3024" height="4032" alt="Bestuurslid"><h3>Bestuurslid</h3><p>Functie</p></article>
-        <article class="person"><img src="/assets/images/board-thijs.png" width="300" height="300" alt="Thijs Bogerd"><h3>Thijs Bogerd</h3><p>Penningmeester</p></article>
+        <article class="person"><img ${imageSource("/assets/images/board-jochem-380.webp")} loading="lazy" alt="Jochem Lindelauf"><h3>Jochem Lindelauf</h3><p>Voorzitter</p></article>
+        <article class="person"><img ${imageSource("/assets/images/board-member-380.webp")} loading="lazy" alt="Bestuurslid"><h3>Bestuurslid</h3><p>Functie</p></article>
+        <article class="person"><img ${imageSource("/assets/images/board-thijs-380.webp")} loading="lazy" alt="Thijs Bogerd"><h3>Thijs Bogerd</h3><p>Penningmeester</p></article>
       </div>
     </section>
-    <section class="section section-soft">${renderSectionHeading({ title: "Sponsors" })}<div class="sponsor-grid"><img src="/assets/images/pong-footer.webp" width="1668" height="1728" alt="Pong House of Ping"><img src="/assets/images/djk-zar-logo.png" width="800" height="300" alt="DJK-ZAR"><img src="/assets/images/pong-footer.webp" width="1668" height="1728" alt="Pong House of Ping"></div></section>
+    <section class="section section-soft">${renderSectionHeading({ title: "Sponsors" })}<div class="sponsor-grid"><img ${imageSource("/assets/images/pong-footer.webp")} alt="Pong House of Ping" loading="lazy"><img src="/assets/images/djk-zar-logo.png" width="800" height="300" alt="DJK-ZAR" loading="lazy"><img ${imageSource("/assets/images/pong-footer.webp")} alt="Pong House of Ping" loading="lazy"></div></section>
     <section class="section"><div class="callout"><div><h2>Klaar om mee te trainen?</h2><p>Call-to-action met één duidelijke vervolgstap.</p></div><a class="button button-light" href="/contact/">Contact</a></div></section>`
 };

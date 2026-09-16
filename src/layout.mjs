@@ -1,3 +1,5 @@
+import { imageSource, imageUrl } from "./images.mjs";
+
 const escape = (value) => String(value)
   .replaceAll("&", "&amp;")
   .replaceAll('"', "&quot;")
@@ -28,7 +30,7 @@ const link = ([label, href], route, className = "") => `<a${className ? ` class=
 
 export function renderTopHero({ image, title, text, href, label, heading = true }) {
   const titleHtml = heading ? `<h1 class="top-hero-title">${title}</h1>` : `<p class="top-hero-title">${title}</p>`;
-  return `<section class="top-hero" style="--top-hero-image:url(&quot;${escape(image)}&quot;)"><div>${titleHtml}<p>${text}</p><a class="button button-primary" href="${href}">${label}</a></div></section>`;
+  return `<section class="top-hero" style="--top-hero-image:url(&quot;${escape(imageUrl(image))}&quot;)"><div>${titleHtml}<p>${text}</p><a class="button button-primary" href="${href}">${label}</a></div></section>`;
 }
 
 export function renderSectionHeading({ kicker, title, level = 2 }) {
@@ -70,7 +72,7 @@ function renderFooter(page) {
         ${trainingSchedule[en ? "en" : "nl"].map(([day, time]) => `<p><strong>${day}</strong><br>${time}</p>`).join("\n        ")}
       </section>
       <section class="footer-location"><h2>${en ? "Location" : "Locatie"}</h2><p>Mercatorbad<br>Jan van Galenstraat 315<br>1056 CB Amsterdam</p><iframe src="https://www.google.com/maps?q=Mercatorbad%2C%20Jan%20van%20Galenstraat%20315%2C%20Amsterdam&amp;output=embed" title="${en ? "Map showing Mercatorbad" : "Kaart met Mercatorbad"}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
-      <section class="footer-links"><h2>Privacy</h2><a class="privacy-link" href="/assets/documents/privacy-verklaring-djkzar.pdf">${en ? "Privacy statement" : "Privacyverklaring"}</a><h2>Sponsor</h2><a href="https://ponghouseofping.nl/"><img src="/assets/images/pong-footer.webp" width="120" height="124" alt="Pong House of Ping"></a></section>
+      <section class="footer-links"><h2>Privacy</h2><a class="privacy-link" href="/assets/documents/privacy-verklaring-djkzar.pdf">${en ? "Privacy statement" : "Privacyverklaring"}</a><h2>Sponsor</h2><a href="https://ponghouseofping.nl/"><img ${imageSource("/assets/images/pong-footer.webp")} alt="Pong House of Ping" loading="lazy"></a></section>
     </div>
   </footer>`;
 }
@@ -126,7 +128,7 @@ export function renderPage(page) {
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <title>${escape(page.title)}</title>
   <meta name="description" content="${escape(page.description)}">
-${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=20">
+${page.canonical ? `  <link rel="canonical" href="${escape(page.canonical)}">\n` : ""}${alternates}${alternates ? "\n" : ""}  <link rel="stylesheet" href="/styles.css?v=21">
 ${renderSeo(page)}</head>
 <body>
   <a class="skip-link" href="#main">${en ? "Skip to the content" : "Ga naar de inhoud"}</a>
