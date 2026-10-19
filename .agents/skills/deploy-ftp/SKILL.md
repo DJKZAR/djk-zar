@@ -34,6 +34,6 @@ From the repository root, run:
 .agents/skills/deploy-ftp/scripts/deploy.sh
 ```
 
-The script runs `npm run check`, uploads the freshly generated contents of `dist/` including `.htaccess`, and verifies the public homepage, stylesheet, and navigation script.
+The script runs `npm run check`, uploads the freshly generated contents of `dist/` including `.htaccess`, and verifies the public homepage, stylesheet, and navigation script. If the local, gitignored `tournament/` directory exists, its files are uploaded too. If it is absent, tournament upload is skipped without failing or changing remote tournament files.
 
 If checks, upload, or verification fail, stop and report the failing stage. Do not claim success and do not retry with weaker TLS or skipped checks. The uploader intentionally does not delete remote files.

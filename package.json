@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "npm run build && node scripts/check.mjs && node scripts/check-assets.mjs && node scripts/check-secrets.mjs",
+    "check": "npm run build && node scripts/check.mjs && node scripts/check-assets.mjs && node --test scripts/check-deploy.test.mjs && node scripts/check-secrets.mjs",
     "check:assets": "npm run build && node scripts/check-assets.mjs",
     "check:secrets": "node scripts/check-secrets.mjs",
     "qa": "npm run check && node scripts/qa.mjs",
